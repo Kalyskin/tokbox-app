@@ -1,0 +1,62 @@
+.app {
+  background: #e1e7f2;
+}
+.container {
+  max-width: 1190px;
+  min-width: 960px;
+  margin: 0 auto;
+}
+ul.rooms_list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+li.rooms_item {
+  padding: 10px 20px;
+  background: aquamarine;
+  margin: 3px;
+  cursor: pointer;
+}
+.room-wrapper {
+  background: #1d1d1c;
+  padding: 15px 3px 3px 3px;
+  padding-top: 4px;
+}
+.video-button {
+  margin-bottom: 4px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+.room {
+  display: flex;
+}
+.subscribers {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+
+.subscriber > div {
+  display: flex;
+}
+.subscriber {
+  border: 2px solid #ddd;
+}
+
+.publisher > div {
+  display: flex;
+}
+
+.publisher {
+  border: 2px solid #ddd;
+}
